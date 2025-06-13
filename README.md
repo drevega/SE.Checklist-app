@@ -1,5 +1,5 @@
-# Simple Check List App
-
+# Simple Check List App ✔️
+  
 Create a minimal to-do checklist to stay organized! 
 
 ## Functionality
@@ -20,6 +20,10 @@ Short video on Check List App
 This project is deployed on GitHub Pages:
 
 - [GitHub Link](https://github.com/drevega/SE.Checklist-app.git)
+
+## Video Recoding of app
+
+- [Video Link](https://drive.google.com/file/d/1Oomktt_N5fFgndt7eMrgsETTcU8j8fVN/view?usp=sharing)
 
 Thank you for viewing! 
 ~Andrea
