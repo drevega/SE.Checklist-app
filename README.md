@@ -11,6 +11,7 @@ A simple to-do checklist app that lets user create new to-do items that includes
 Used JavaScript, BEM methodology, utility classes that add elements to the DOM, OOP.
 
 ## Video Link 
+Short video on Check List App
 
 - [Video Link](https://drive.google.com/file/d/1Wh_VbJ-6CBNUkFN9QT-74NRaKIjnnqL1/view?usp=sharing)
 
@@ -18,7 +19,7 @@ Used JavaScript, BEM methodology, utility classes that add elements to the DOM, 
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- [GitHub Link](https://github.com/drevega/SE.Checklist-app.git)
 
 Thank you for viewing! 
 ~Andrea
