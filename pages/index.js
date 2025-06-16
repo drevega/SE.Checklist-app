@@ -9,7 +9,7 @@ import TodoCounter from "../components/TodoCounter.js";
 
 const addTodoButton = document.querySelector(".button_action_add");
 const addTodoPopupEl = document.querySelector("#add-todo-popup");
-const addTodoForm = addTodoPopupEl.querySelector(".popup__form");
+const addTodoForm = document.forms["add-todo-form"];
 const addTodoCloseBtn = addTodoPopupEl.querySelector(".popup__close");
 const todosList = document.querySelector(".todos__list");
 
@@ -18,10 +18,10 @@ const todoCounter = new TodoCounter(initialTodos, ".counter__text");
     //this creates and adds a new todo**
 const addTodoPopup = new PopupWithForm({
   popupSelector: "#add-todo-popup",
-  handleFormSubmit: (evt) => {
+  handleFormSubmit: (inputValues) => {
     // move code from existing submittion handler to here **
-    const name = evt.target.name.value;
-    const dateInput = evt.target.date.value;
+    const name = inputValues.name;
+    const dateInput = inputValues.date;
 
     // Create a date object and adjust for timezone
     const date = new Date(dateInput);
